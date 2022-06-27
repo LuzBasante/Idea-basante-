@@ -1,0 +1,21 @@
+#carousel {
+    align-items: center center ;
+    padding-left: 500px;
+
+}
+header{
+    background-color: rgba(134, 28, 19, 0.92)
+}
+
+  @mixin important-text {
+    color: rgb(250, 250, 71) ;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid rgba(134, 28, 19, 0.92);
+  }
+  
+  .contactate {
+    @include important-text;
+    background-color: rgba(134, 28, 19, 0.92);
+  }
